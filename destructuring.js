@@ -1,14 +1,27 @@
-// const obj ={ aa:"Hardik"  , bb:"Jai" , cc:"Saksham", dd: "paras", ee:"chitresh"}
+const a =[ "Hardik"  , "Jai" , "Saksham"]
 
-// const {aa,bb} = obj;
+// const [a,b] = a;
 // console.log(aa,bb)
 
 // console.log(b)
 // console.log(rest) 
-// let c = ["Garg","Goyal","Jindal"]
-// const d = [...a,...c]
+let c = ["Garg","Goyal","Jindal"]
+const d = [...a,...c]
 
-// console.log(d)
+console.log(d)
+n= a.length
+for (const[i,value] of a.entries()){
+    console.log(i,value)
+    for (const[j,value] of c.entries()){
+        console.log(i,value)
+    }
+}
+// for (i in n){
+//     for (j in i+1){
+//         console.log(a[])
+
+//     }
+// }
 // const e = (item,index) => {
 // const a =["Hardik", "Saksham","Jai","Chitresh"]
 // const [aa,bb,c,d] = a
@@ -24,9 +37,9 @@
 // console.log(aa,bb)
 // }
 // var name= "1"
-name = "1"
-function readme(){
-    console.log(name)
-}
-readme()
-var  name
+// name = "1"
+// function readme(){
+//     console.log(name)
+// }
+// readme()
+// var  name
