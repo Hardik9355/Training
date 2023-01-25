@@ -13,12 +13,20 @@
 // const a =["Hardik", "Saksham","Jai","Chitresh"]
 // const [aa,bb,c,d] = a
 // console.log(c,d,aa)
-const a =["Hardik"]
-const b = (num)=>{
-    return num+ " " +"Garg"
-}
-const d = a.map(b)
-console.log(d)   
+// const a =["Hardik"]
+// const b = (num)=>{
+    // return num+ " " +"Garg"
+    
+// }
+// const d = a.map(b)
+// console.log(d)   
 // let [aa,bb]= a
 // console.log(aa,bb)
 // }
+// var name= "1"
+name = "1"
+function readme(){
+    console.log(name)
+}
+readme()
+var  name
