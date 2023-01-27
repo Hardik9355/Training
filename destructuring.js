@@ -6,16 +6,21 @@ const a =[ "Hardik"  , "Jai" , "Saksham"]
 // console.log(b)
 // console.log(rest) 
 let c = ["Garg","Goyal","Jindal"]
-const d = [...a,...c]
+// const d = [...a,...c]
 
-console.log(d)
-n= a.length
-for (const[i,value] of a.entries()){
-    console.log(i,value)
-    for (const[j,value] of c.entries()){
-        console.log(i,value)
-    }
+// // console.log(d)
+let n= a.length
+// for (const[value,i] of a.entries()){
+//     // console.log(value,i)
+//     for (const[value,j] of c.entries()){
+//         console.log(i,j)
+    // }
+let x=[];
+for (let i=0;i<n;i++){
+    x[i]=a[i]+ " "+ c[i];
 }
+console.log(x);
+// }
 // for (i in n){
 //     for (j in i+1){
 //         console.log(a[])
